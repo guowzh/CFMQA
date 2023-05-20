@@ -1,0 +1,10 @@
+{
+    "output_dir": "/CFMQA/data/outputs/",
+    "exp_name": "CFMQA_roberta_baseline=v4_0",
+    "model_type": "roberta",
+    "encoder_name_or_path": "roberta",
+    "bi_attn_drop": 0.3,
+    "trans_drop": 0.2,
+    "gnn_drop": 0.3,
+    "gpu_id": "1"
+}

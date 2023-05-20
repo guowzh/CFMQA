@@ -1,0 +1,14 @@
+{
+    "exp_name": "CFMQA_roberta_baseline+TIE=v4_1",
+    "model_type": "roberta",
+    "encoder_name_or_path": "roberta-large",
+    "num_train_epochs": 5,
+    "per_gpu_train_batch_size": 1,
+    "learning_rate": 1e-5,
+    "gradient_accumulation_steps": 1,
+    "gpu_id": "4",
+    "gnn_drop": 0.3,
+    "bi_attn_drop": 0.3,
+    "trans_drop": 0.2,
+    "counterfactual":"True"
+}

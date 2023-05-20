@@ -1,0 +1,11 @@
+{
+    "exp_name": "HGN+ours",
+    "model_type": "bert",
+    "encoder_name_or_path": "bert-base-uncased",
+    "num_train_epochs": 5,
+    "per_gpu_train_batch_size": 1,
+    "learning_rate": 1e-5,
+    "gradient_accumulation_steps": 1,
+    "gpu_id": "1",
+    "counterfactual":"True"
+}

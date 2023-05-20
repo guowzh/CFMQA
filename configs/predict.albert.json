@@ -1,0 +1,8 @@
+{
+    "output_dir": "CFMQA/data/outputs/",
+    "exp_name": "albert_xxlarge_v2_72",
+    "model_type": "albert",
+    "encoder_name_or_path": "albert-xxlarge-v2",
+    "bi_attn_drop": 0.1,
+    "trans_drop": 0.2
+}

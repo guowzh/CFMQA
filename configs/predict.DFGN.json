@@ -1,0 +1,12 @@
+{
+    "output_dir": "CFMQA/data/outputs/",
+    "exp_name": "DFGN+ours",
+    "model_type": "bert",
+    "encoder_name_or_path": "bert-base-uncased",
+    "eval_batch_size": 4,
+    "gnn":"gat:2,2",
+    "q_update":"True",
+    "q_attn":"True",
+    "gpu_id": "5",
+    "ckpt_num": "5"
+}

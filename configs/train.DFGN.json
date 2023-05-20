@@ -1,0 +1,15 @@
+{
+    "exp_name": "DFGN+ours",
+    "model_type": "bert",
+    "encoder_name_or_path": "bert-base-uncased",
+    "num_train_epochs": 3,
+    "per_gpu_train_batch_size": 2,
+    "learning_rate": 1e-5,
+    "gradient_accumulation_steps": 1,
+    "gnn":"gat:2,2",
+    "q_update":"True",
+    "q_attn":"True",
+    "gpu_id": "4",
+    "mask_prob":0.15,
+    "counterfactual":"True"
+}

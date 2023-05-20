@@ -1,0 +1,9 @@
+{
+    "output_dir": "CFMQA/data/outputs/",
+    "exp_name": "bert+ours",
+    "model_type": "bert",
+    "encoder_name_or_path": "bert-base-uncased",
+    "eval_batch_size": 4,
+    "gpu_id": "3",
+    "ckpt_num":"4"
+}
